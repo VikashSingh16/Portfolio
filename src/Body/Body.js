@@ -1,10 +1,10 @@
 /** @format */
 
-import About from './About';
-import Education from './Education';
-import Experience from './Experience';
-import Skills from './Skills';
-import Contact from './Contact';
+import About from './About/About';
+import Education from './Education/Education';
+import Experience from './Experience/Experience';
+import Skills from './Skills/Skills';
+import Contact from './Contact/Contact';
 
 const Body = () => {
   return (

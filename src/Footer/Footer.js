@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return (
-    <div className='w-full mt-12 h-24 flex flex-col items-center pt-6'>
+    <div className='w-full mt-16 2xl:mt-10 xl:mt-10 lg:mt-10 md:mt-16 h-24 flex flex-col items-center pt-6'>
       <span className='font-light font-sans'>
         Copyright &#169; 2024, All rights reserved
       </span>

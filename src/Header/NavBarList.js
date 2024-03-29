@@ -1,14 +1,13 @@
 /** @format */
-
 import { NavBarJson } from '../Util/Utility';
-const NavBar = () => {
+const NavBarList = () => {
   return (
     <div>
-      <ul className='flex '>
+      <ul>
         {NavBarJson.map((nav) => (
           <a href={nav.link}>
             <li
-              className='mr-4 hover:text-yellow-500 font-sans font-semibold'
+              className='mr-4 hover:text-yellow-500 font-sans font-semibold mt-2 text-lg'
               key={nav.label}>
               {nav.label}
             </li>
@@ -18,5 +17,4 @@ const NavBar = () => {
     </div>
   );
 };
-
-export default NavBar;
+export default NavBarList;
