@@ -2,7 +2,7 @@
   "name": "vikash-singh",
   "version": "1.0.0",
   "description": "This is a portfolio website",
-  "main": "Index.js",
+  "source": "index.html",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
