@@ -38,9 +38,11 @@ const Contact = () => {
                 cols='50'
                 className='border border-gray-400 h-32 w-full mt-7 placeholder:text-slate-500 placeholder:font-bold placeholder:px-2 placeholder:py-2'></textarea>
             </span>
-            <button className='bg-yellow-400 rounded-full w-2/5 h-12 mt-10 text-white font-bold flex ml-auto justify-center pt-3 hover:bg-yellow-500'>
-              Send Button
-            </button>
+            <a href='/'>
+              <button className='bg-yellow-400 rounded-full w-2/5 h-12 mt-10 text-white font-bold flex ml-auto justify-center pt-3 hover:bg-yellow-500'>
+                Send Button
+              </button>
+            </a>
           </div>
         </div>
       </div>

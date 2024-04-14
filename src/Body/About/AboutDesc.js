@@ -22,7 +22,7 @@ const AboutDesc = () => {
         lifelong learner, worked  extensively in development projects wherein{' '}
         <span className='font-semibold'>
           {' '}
-          I  worked in HTML, CSS, JS, Typescipt, React, NextJS, Java, Go Lang,
+          I  worked in HTML, CSS, JS, Typescipt, React, NextJS, Java, Go lang,
           Spring boot 6, SQL, OAuth2, Kafka, Azure Cloud and DevOps Seeking to
           add value, grow my skillset, and participate in meaningful work.{' '}
         </span>
