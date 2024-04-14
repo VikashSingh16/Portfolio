@@ -1,10 +1,9 @@
 /** @format */
 import { useState } from 'react';
 const HamburgerButton = (props) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const isOpen = props.isMenuOpen;
   const genericHamburgerLine = `h-1 w-6 my-1 rounded-full bg-white transition ease transform duration-300`;
   const MenuOpen = () => {
-    setIsOpen(!isOpen);
     props.MenuOpen(!isOpen);
   };
   return (

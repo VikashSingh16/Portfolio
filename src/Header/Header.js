@@ -11,7 +11,6 @@ const Header = () => {
   const MenuOpen = (data) => {
     setMenuOpen(data);
   };
-  console.log(isMenuOpen);
   return (
     <div className='w-full'>
       <div className='flex justify-center mt-6 lg:mx-6'>
@@ -22,14 +21,14 @@ const Header = () => {
           <NavBar />
         </div>
         <div className='flex w-1/4  justify-end  content-center mr-10 text-lg 2xl:hidden xl:hidden lg:hidden '>
-          <HamburgerButton MenuOpen={MenuOpen} />
+          <HamburgerButton MenuOpen={MenuOpen} isMenuOpen={isMenuOpen} />
         </div>
       </div>
       <div
         className={`w-full flex justify-center mt-6 border-slate-100  ${
           isMenuOpen ? 'border-b-2' : ''
         }`}>
-        {isMenuOpen && <NavBarList />}
+        {isMenuOpen && <NavBarList MenuOpen={MenuOpen} />}
       </div>
     </div>
   );
