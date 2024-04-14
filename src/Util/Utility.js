@@ -142,7 +142,7 @@ export const Experience = [
       {
         Designation: 'Senior Software Engineer',
         ProjectYear: 'Feb 2022',
-        Desc: ' I am workiing on speciality drugs application as full stack enginner.',
+        Desc: ' I am working on speciality drugs application as full stack enginner.',
       },
     ],
   },
